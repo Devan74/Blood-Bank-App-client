@@ -8,7 +8,7 @@ const Modal = () => {
   const [bloodGroup, setBloodGroup] = useState("");
   const [quantity, setQuantity] = useState(0);
   const [email, setEmail] = useState("");
-  const { user } = useSelector((state) => state.auth);
+  const { user } = useSelector((state) => state.auth) ;
   // handle modal data
   const handleModalSubmit = async () => {
     try {
